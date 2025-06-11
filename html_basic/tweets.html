@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tweets Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Tweets</title>
 </head>
 <body>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-    <h1>My Tweets</h1>
+  <main>
+    <article>
+      <h1>My Tweets</h1>
 
-    <!-- Embed a tweet -->
-    <blockquote class="twitter-tweet">
+      <blockquote class="twitter-tweet">
         <p lang="en" dir="ltr">Learning web development is so much fun! #100DaysOfCode</p>&mdash; Code Learner (@codelearner)
         <a href="https://twitter.com/codelearner/status/1234567890123456789">March 1, 2025</a>
-    </blockquote>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <!-- Twitter widget script -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p><a href="index.html">Back to Homepage</a></p>
+    </article>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to Homepage</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
+  <footer>
+    <p>Made by Nyange Arnold - <a href="https://github.com/NyangeArnold" target="_blank">here</a>.</p>
+  </footer>
 </body>
 </html>
